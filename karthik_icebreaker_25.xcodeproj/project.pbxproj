@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7FF9425D2D49C1C40066153A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF942442D49C1C20066153A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF9424B2D49C1C20066153A;
+			remoteInfo = karthik_icebreaker_25;
+		};
+		7FF942672D49C1C40066153A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF942442D49C1C20066153A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF9424B2D49C1C20066153A;
+			remoteInfo = karthik_icebreaker_25;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FF9424C2D49C1C20066153A /* karthik_icebreaker_25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = karthik_icebreaker_25.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF9425C2D49C1C40066153A /* karthik_icebreaker_25Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karthik_icebreaker_25Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF942662D49C1C40066153A /* karthik_icebreaker_25UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karthik_icebreaker_25UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7FF9424E2D49C1C20066153A /* karthik_icebreaker_25 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = karthik_icebreaker_25;
+			sourceTree = "<group>";
+		};
+		7FF9425F2D49C1C40066153A /* karthik_icebreaker_25Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = karthik_icebreaker_25Tests;
+			sourceTree = "<group>";
+		};
+		7FF942692D49C1C40066153A /* karthik_icebreaker_25UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = karthik_icebreaker_25UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF942492D49C1C20066153A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF942592D49C1C40066153A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF942632D49C1C40066153A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FF942432D49C1C20066153A = {
+			isa = PBXGroup;
+			children = (
+				7FF9424E2D49C1C20066153A /* karthik_icebreaker_25 */,
+				7FF9425F2D49C1C40066153A /* karthik_icebreaker_25Tests */,
+				7FF942692D49C1C40066153A /* karthik_icebreaker_25UITests */,
+				7FF9424D2D49C1C20066153A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF9424D2D49C1C20066153A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF9424C2D49C1C20066153A /* karthik_icebreaker_25.app */,
+				7FF9425C2D49C1C40066153A /* karthik_icebreaker_25Tests.xctest */,
+				7FF942662D49C1C40066153A /* karthik_icebreaker_25UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF9424B2D49C1C20066153A /* karthik_icebreaker_25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF942702D49C1C40066153A /* Build configuration list for PBXNativeTarget "karthik_icebreaker_25" */;
+			buildPhases = (
+				7FF942482D49C1C20066153A /* Sources */,
+				7FF942492D49C1C20066153A /* Frameworks */,
+				7FF9424A2D49C1C20066153A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7FF9424E2D49C1C20066153A /* karthik_icebreaker_25 */,
+			);
+			name = karthik_icebreaker_25;
+			packageProductDependencies = (
+			);
+			productName = karthik_icebreaker_25;
+			productReference = 7FF9424C2D49C1C20066153A /* karthik_icebreaker_25.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FF9425B2D49C1C40066153A /* karthik_icebreaker_25Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF942732D49C1C40066153A /* Build configuration list for PBXNativeTarget "karthik_icebreaker_25Tests" */;
+			buildPhases = (
+				7FF942582D49C1C40066153A /* Sources */,
+				7FF942592D49C1C40066153A /* Frameworks */,
+				7FF9425A2D49C1C40066153A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF9425E2D49C1C40066153A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7FF9425F2D49C1C40066153A /* karthik_icebreaker_25Tests */,
+			);
+			name = karthik_icebreaker_25Tests;
+			packageProductDependencies = (
+			);
+			productName = karthik_icebreaker_25Tests;
+			productReference = 7FF9425C2D49C1C40066153A /* karthik_icebreaker_25Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FF942652D49C1C40066153A /* karthik_icebreaker_25UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF942762D49C1C40066153A /* Build configuration list for PBXNativeTarget "karthik_icebreaker_25UITests" */;
+			buildPhases = (
+				7FF942622D49C1C40066153A /* Sources */,
+				7FF942632D49C1C40066153A /* Frameworks */,
+				7FF942642D49C1C40066153A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF942682D49C1C40066153A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7FF942692D49C1C40066153A /* karthik_icebreaker_25UITests */,
+			);
+			name = karthik_icebreaker_25UITests;
+			packageProductDependencies = (
+			);
+			productName = karthik_icebreaker_25UITests;
+			productReference = 7FF942662D49C1C40066153A /* karthik_icebreaker_25UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF942442D49C1C20066153A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7FF9424B2D49C1C20066153A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7FF9425B2D49C1C40066153A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7FF9424B2D49C1C20066153A;
+					};
+					7FF942652D49C1C40066153A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7FF9424B2D49C1C20066153A;
+					};
+				};
+			};
+			buildConfigurationList = 7FF942472D49C1C20066153A /* Build configuration list for PBXProject "karthik_icebreaker_25" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FF942432D49C1C20066153A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7FF9424D2D49C1C20066153A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF9424B2D49C1C20066153A /* karthik_icebreaker_25 */,
+				7FF9425B2D49C1C40066153A /* karthik_icebreaker_25Tests */,
+				7FF942652D49C1C40066153A /* karthik_icebreaker_25UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF9424A2D49C1C20066153A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF9425A2D49C1C40066153A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF942642D49C1C40066153A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF942482D49C1C20066153A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF942582D49C1C40066153A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF942622D49C1C40066153A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FF9425E2D49C1C40066153A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF9424B2D49C1C20066153A /* karthik_icebreaker_25 */;
+			targetProxy = 7FF9425D2D49C1C40066153A /* PBXContainerItemProxy */;
+		};
+		7FF942682D49C1C40066153A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF9424B2D49C1C20066153A /* karthik_icebreaker_25 */;
+			targetProxy = 7FF942672D49C1C40066153A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FF9426E2D49C1C40066153A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FF9426F2D49C1C40066153A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF942712D49C1C40066153A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"karthik_icebreaker_25/Preview Content\"";
+				DEVELOPMENT_TEAM = 49LDN9N7D8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unh.karthik-icebreaker-25";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF942722D49C1C40066153A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"karthik_icebreaker_25/Preview Content\"";
+				DEVELOPMENT_TEAM = 49LDN9N7D8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unh.karthik-icebreaker-25";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FF942742D49C1C40066153A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49LDN9N7D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unh.karthik-icebreaker-25Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/karthik_icebreaker_25.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/karthik_icebreaker_25";
+			};
+			name = Debug;
+		};
+		7FF942752D49C1C40066153A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49LDN9N7D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unh.karthik-icebreaker-25Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/karthik_icebreaker_25.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/karthik_icebreaker_25";
+			};
+			name = Release;
+		};
+		7FF942772D49C1C40066153A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49LDN9N7D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unh.karthik-icebreaker-25UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = karthik_icebreaker_25;
+			};
+			name = Debug;
+		};
+		7FF942782D49C1C40066153A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49LDN9N7D8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "unh.karthik-icebreaker-25UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = karthik_icebreaker_25;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF942472D49C1C20066153A /* Build configuration list for PBXProject "karthik_icebreaker_25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF9426E2D49C1C40066153A /* Debug */,
+				7FF9426F2D49C1C40066153A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF942702D49C1C40066153A /* Build configuration list for PBXNativeTarget "karthik_icebreaker_25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF942712D49C1C40066153A /* Debug */,
+				7FF942722D49C1C40066153A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF942732D49C1C40066153A /* Build configuration list for PBXNativeTarget "karthik_icebreaker_25Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF942742D49C1C40066153A /* Debug */,
+				7FF942752D49C1C40066153A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF942762D49C1C40066153A /* Build configuration list for PBXNativeTarget "karthik_icebreaker_25UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF942772D49C1C40066153A /* Debug */,
+				7FF942782D49C1C40066153A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF942442D49C1C20066153A /* Project object */;
+}
