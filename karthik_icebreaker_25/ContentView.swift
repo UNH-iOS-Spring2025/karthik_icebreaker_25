@@ -1,43 +1,117 @@
 //
 //  ContentView.swift
-//  karthik_icebreaker_25
+//  karthik_Icebreaker_25
 //
-//  Created by saikarthik oduru on 1/28/25.
+//  Created by Saikarthik on 1/28/25.
 //
 
 import SwiftUI
+import FirebaseFirestore
 
 struct ContentView: View {
+    let db = Firestore.firestore()
+    
+    @State var txtFirstName: String = ""
+    @State var txtLastName: String = ""
+    @State var txtPrefName: String = ""
+    @State var txtAnswer: String = ""
+    @State var txtQuestion: String = ""
+    
+    @State var questions = [Question]()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, class!")
-            Text("This is sai's iphone")
-            Image(systemName: "heart.fill")
-                .foregroundColor(.red)
-                .padding()
-            
+            Spacer()
+            Text("Icebreaker")
+                .bold()
+                .font(.system(size: 40))
+            Text("Made By Saikarthik")
+            Spacer()
+            TextField("First Name", text: $txtFirstName)
+            TextField("Last Name", text: $txtLastName)
+            TextField("Preferred Name", text: $txtPrefName)
             Button(action: {
-                            print("Login button tapped!")
-                        }) {
-                            Text("Login")
-                                .font(.headline)
-                                .foregroundColor(.white)
-                                .padding()
-                                .frame(width: 150, height: 50)
-                                .background(Color.blue)
-                                .cornerRadius(10)
+                setRandomQuestion()
+            }){
+                Text("Get a new random question")
+                    .font(.system(size:28))
+            }
+            
+                Text(txtQuestion)
+            TextField("Answer", text: $txtAnswer)
+            Button(action: {
+                writeStudentToFirebase()
+                resetTxtFields()
+            }){
+                Text("Submit")
+                    .font(.system(size:28))
+            }
+            Spacer()
+        }
+        .padding(30)
+        .font(.largeTitle)
+        .multilineTextAlignment(.center)
+        .onAppear(){
+            getQuestionsFromFirebase()
+        }
+        
+    }
+    func setRandomQuestion(){
+        let newQuestion = questions.randomElement()?.text
+        if(newQuestion != nil){
+            self.txtQuestion = newQuestion!
+        }
+    }
+    
+    func getQuestionsFromFirebase(){
+        db.collection("questions")
+            .getDocuments(){ (querySnapshot,err) in
+                if let err = err { // error is not nil
+                    print("Error getting documents: \(err)")
+                } else {
+                    for document in querySnapshot!.documents {
+                        print("\(document.documentID)")
+                        if let question = Question(id: document.documentID, data: document.data()){
+                            print("Question ID = \(question.id), text = \(question.text)")
+                            self.questions.append(question)
                         }
                     }
-                    .padding()
                 }
             }
-
-            struct ContentView_Previews: PreviewProvider {
-                static var previews: some View {
-                    ContentView()
+    }
+    
+    func resetTxtFields(){
+        txtFirstName = ""
+        txtLastName = ""
+        txtPrefName = ""
+        txtAnswer = ""
+        txtQuestion = ""
+    }
+    
+    func writeStudentToFirebase(){
+        let data = [
+            "first_name" : txtFirstName,
+            "last_name" : txtLastName,
+            "pref_name" : txtPrefName,
+            "question" : txtQuestion,
+            "answer" : txtAnswer,
+            "class" : "iOS-Spring2025",
+        ] as [String : Any]
+        
+        var ref: DocumentReference? = nil
+        ref = db.collection("students")
+            .addDocument(data: data) { err in
+                if let err = err {
+                    print("Error adding document: \(err)")
+                } else {
+                    print("Document added with ID: \(ref!.documentID)")
                 }
             }
+    }
+}
 
+
+
+#Preview {
+    ContentView()
+}
