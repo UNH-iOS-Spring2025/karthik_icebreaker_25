@@ -55,6 +55,7 @@ struct ContentView: View {
             getQuestionsFromFirebase()
         }
         
+        
     }
     func setRandomQuestion(){
         let newQuestion = questions.randomElement()?.text
